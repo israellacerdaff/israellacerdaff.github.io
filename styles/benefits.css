@@ -1,0 +1,55 @@
+.testimonial-slider div{
+    text-align: center;
+} 
+
+.testimonial-slider p {
+    font-size:20px;
+}
+      
+.slick-slide {
+    float: left /* If RTL Make This Right */ ;
+    padding: 0;
+}
+
+.slider {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+
+.title-benefits {
+    height: 29px;
+    margin-top: 2rem;
+}
+
+.title-benefits h2{
+    font-size: 16px !important;
+    color: #353535;
+    line-height: 24.34px;
+    font-weight: 700;
+}
+
+
+.slick-buy {
+    max-width: 308px;
+    background-color: #EFEFEF;
+    gap: 1rem;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 12px;
+
+}
+
+.slick-buy h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.29px;
+    color: #353535;
+}
+
+.slick-buy p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.25px;
+    color: #000;
+}

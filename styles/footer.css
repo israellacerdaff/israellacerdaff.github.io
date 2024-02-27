@@ -1,0 +1,110 @@
+.footer-maeztra {
+    background-color: #FAFAFA;
+    padding: 2rem;
+}
+
+.footer-container {
+    line-height: 3rem;
+}
+
+.heading-text {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+a {
+  color: #353535 !important;
+}
+.shfooter .collapse {
+  display: inherit;
+}
+
+.social {
+    background-color: #353535;
+    justify-content: space-around;
+}
+
+.social-midia, .payments {
+    gap: 1rem;
+}
+
+
+@media (max-width: 767px) {
+  .shfooter ul {
+    margin-bottom: 0;
+  }
+
+  .heading-text {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+  .shfooter .collapse {
+    display: none;
+  }
+
+  .shfooter .collapse.show {
+    display: block;
+  }
+
+  .shfooter .title .fa-angle-up,
+  .shfooter .title[aria-expanded="true"] .fa-angle-down {
+    display: none;
+  }
+
+  .shfooter .title[aria-expanded="true"] .fa-angle-up {
+    display: block;
+  }
+
+  .shfooter .navbar-toggler {
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+.resize {
+  text-align: center;
+}
+.resize {
+  margin-top: 3rem;
+  font-size: 1.25rem;
+}
+/*RESIZESCREEN ANIMATION*/
+.fa-angle-double-right {
+  animation: rightanime 1s linear infinite;
+}
+
+.fa-angle-double-left {
+  animation: leftanime 1s linear infinite;
+}
+@keyframes rightanime {
+  50% {
+    transform: translateX(10px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+}
+@keyframes leftanime {
+  50% {
+    transform: translateX(-10px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .social {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
